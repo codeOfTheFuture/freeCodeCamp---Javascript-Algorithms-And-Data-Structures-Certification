@@ -1,14 +1,14 @@
 function multiplyAll(arr) {
   var product = 1;
   // Only change code below this line
-
-  for (var i = 0; i < arr.length; i++){
-    for (var j = 0; j < arr[i].length; i++) {
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr[i].length; j++) {
       product *= arr[i][j];
     }
   }
+  
   // Only change code above this line
-  return product;
+  return console.log(product);
 }
 
 // Modify values below to test your code
